@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.details img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.progress-bar input {
+  width: 150px;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.volume-control input {
+  margin-left: 10px;
+}
